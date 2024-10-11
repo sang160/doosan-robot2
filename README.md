@@ -47,10 +47,10 @@ Install Docker https://docs.docker.com/engine/install/ubuntu/
 
 ## Launch Parameters
 ### *mode*
-- Pass __move:=real__ arguement over launch to drive a robot in reality.   
+- Pass __mode:=real__ arguement over launch to drive a robot in reality.   
 The default IP and port of our robot controller are _192.168.127.100_ and _12345_.
 
-- Pass __move:=virtual__ argument over launch to drive a robot virtually.   
+- Pass __mode:=virtual__ argument over launch to drive a robot virtually.   
 Our emulators are automatically started and terminated according to launch lifetime.   
 The default IP and port of the virtual emulator are _127.0.0.1_ and _12345_.   
 ( Users need to install the emulator by 'install_emulator.sh' )
